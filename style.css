@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    width:900px;
+    margin:auto;
+}
+.header{
+    display:grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 1fr;
+    margin: 20px;
+}
+.grid-a{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    background-color: rgb(2, 113, 113);
+    color: aliceblue;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.grid-a img {
+    border-top-right-radius: 0;
+}
+img{
+    width:100%;
+}
+
+.container-2 img {
+height: 100%;
+border-bottom-right-radius: ;
+}
+.header-box{
+   align-self: center;
+}
+.header-1{
+    margin-left: 20px;
+}
+/* .container-1{  
+    display: grid;
+    grid-template-columns: repeat (3,1fr);
+    grid-template-rows: 1fr; 
+    align-self: center;
+    /* margin: 20px; 
+/* } */
+.container-2{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 40px;
+    background-color: rgb(2, 90, 88);
+    color: aliceblue;
+    border-radius:30px ;
+    margin: 20px;
+     align-self: center; 
+   
+
+}
+ .grid-b{  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+    grid-template-rows: 1fr; 
+    margin-bottom: 10px;
+    padding: 20px; 
+
+}
+.text-monial{
+    align-self: center;
+}
+.text-monial h3{
+margin-bottom: 10px;
+}
+.profile-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+    margin: 20px;  
+        
+}
+.list{
+    list-style: none;
+    margin: 20px;
+    list-style: circle;
+}
+.list li{
+    margin: 10px;
+}
+.sub-header{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.button:hover{
+    font-weight: bold;
+    color: beige;
+    background-color:rgb(121, 115, 115);
+}
+.button{
+    cursor: pointer;
+    text-align:center;
+    background-color: black;
+    cursor: pointer ;
+    font-size: 20px;
+    font-weight: bold;
+    color: bisque;
+    border-radius: 100px;
+    font-size: small;
+    padding: 5px;
+    
+}
+.profile{
+    box-shadow: 0 10px 10px 0 black;
+    border-radius: 30px;
+    
+    }
+img{
+    border-radius: 30px ;
+    width: 100%;
+
+}
+.chair-icon{
+    width: 30px;
+    height: 30px;
+    stroke: black;
+}
+
+.icon{
+    height: 24px;
+    width: 24px;
+}
+
+
+li{
+    list-style: none;
+}
+.footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:gray;
+    color: aliceblue;
+    text-align: center;
+    height: 20px;
+    padding: 10px;
+    font-size: large;
+    border-radius: 50px;
+}
+.cart{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 20px ;
+}
+.blackquote{
+    margin-bottom: 30px;
+
+}
+
+    
